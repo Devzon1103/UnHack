@@ -1,0 +1,58 @@
+
+
+    (function () {
+      emailjs.init("JKoPb_TXQdIfOBZ0s"); // Initialize EmailJS with your user ID
+    })();
+
+
+    // form 1 script starts 
+    document.getElementById('contactForm').addEventListener('submit', function (event) {
+      event.preventDefault(); // Prevent form submission
+
+      const name = document.getElementById('userName').value;
+      const email = document.getElementById('userEmail').value;
+      const mobile = document.getElementById('Mobile_NO').value;
+      const subject = document.getElementById('subject').value;
+      const message = document.getElementById('msg').value;
+      const submitButton = document.querySelector('#submit1');
+
+      // Disable the button
+      submitButton.innerHTML = "Sending...";
+      submitButton.disabled = true;
+
+      // Send email using EmailJS
+      emailjs.send("service_secureyu", "template_4vwnun9", {
+        name: name,
+        email: email,
+        mobile: mobile,
+        subject: subject,
+        message: message
+      })
+        .then(function (response) {
+          console.log('Email sent:', response);
+          submitButton.innerHTML = "Email sent successfully!";
+          submitButton.style.backgroundColor = "green";
+
+          setTimeout(function () {
+            submitButton.innerHTML = "Send Email";
+            submitButton.style.backgroundColor = "#1e68a1";
+
+            submitButton.disabled = false; // Enable the button
+          }, 1000);
+        }, function (error) {
+          console.error('Email send error:', error);
+          submitButton.innerHTML = "Error sending email.";
+          submitButton.style.backgroundColor = "red";
+
+          setTimeout(function () {
+            submitButton.innerHTML = "Send Email";
+            submitButton.style.backgroundColor = "#1e68a1";
+            submitButton.disabled = false; // Enable the button
+          }, 1000);
+        });
+    });
+ 
+
+    <script>
+    document.cookie = " SameSite=None; Secure; Path=/tfs/secureyu/; Domain=zoninnovative.com";
+  </script>
