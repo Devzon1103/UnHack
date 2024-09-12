@@ -21,7 +21,7 @@
       submitButton.disabled = true;
 
       // Send email using EmailJS
-      emailjs.send("service_secureyu", "template_4vwnun9", {
+      emailjs.send("service_UnHack", "template_4vwnun9", {
         name: name,
         email: email,
         mobile: mobile,
@@ -54,5 +54,5 @@
  
 
     <script>
-    document.cookie = " SameSite=None; Secure; Path=/tfs/secureyu/; Domain=zoninnovative.com";
+    document.cookie = " SameSite=None; Secure; Path=/tfs/UnHack/; Domain=zoninnovative.com";
   </script>

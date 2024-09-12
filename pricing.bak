@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pricing | SecureYu</title>
+    <title>Pricing | UnHack</title>
     <meta name="description"
-    content="SecureYu is a top cybersecurity provider in Asia, Offering advanced penetration testing and vulnerability assessment services to safeguard businesses from cyber threats. Our mission is to continuously innovate and educate on cybersecurity best practices.">
+    content="UnHack is a top cybersecurity provider in Asia, Offering advanced penetration testing and vulnerability assessment services to safeguard businesses from cyber threats. Our mission is to continuously innovate and educate on cybersecurity best practices.">
 
     <!--=====FAB ICON=======-->
-    <link rel="shortcut icon" href="assets/images/logos/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" id="favicon" href="assets/images/logos/favicon.png" type="image/x-icon">
 
 
     <!--=====CSS=======-->
@@ -72,7 +72,7 @@
                         <div class="header-elements">
                             <div class="site-logo">
                                 <a href="index.html">
-                                    <img src="assets/images/logos/SecureYu-black.png" style="max-width: 240px;" alt="">
+                                    <img src="assets/images/logos/UnHack-Logo.png" style="width: 80%; margin-bottom:20px" alt="">
                                 </a>
                             </div>
 
@@ -83,7 +83,7 @@
 
                                     </li>
 
-                                    <li><a href="about.html">SecureYu</a></li>
+                                    <li><a href="about.html">UnHack</a></li>
 
                                     <li class="dropdown-menu-parrent"><a href="service.html"
                                             class="d-flex gap-1 justify-content-center align-items-center">Services <i
@@ -140,7 +140,7 @@
             <div class="col-12">
                 <div class="mobile-header-elements">
                     <div class="mobile-logo" style="max-width: 200px;">
-                        <a href="index.html"><img src="assets/images/logos/SecureYu-black.png" alt=""></a>
+                        <a href="index.html"><img src="assets/images/logos/UnHack-Logo.png" alt="unhack mobile logo"></a>
                     </div>
                     <div class="mobile-nav-icon">
                         <i class="fa-duotone fa-bars-staggered"></i>
@@ -152,7 +152,7 @@
 
     <div class="mobile-sidebar d-block d-lg-none">
         <div class="logo-m">
-            <a href="index.html"><img src="assets/images/logos/logo-white.png" alt=""></a>
+            <a href="index.html"><img src="assets/images/logos/UnHack-White.png" alt="slider unhack logo"></a>
         </div>
         <div class="menu-close">
             <i class="fa-solid fa-xmark"></i>
@@ -212,7 +212,7 @@
                         <img src="assets/img/icons/footer1-icon3.png" alt="">
                     </div>
                     <div class="pera">
-                        <a href="mailto:admin@secureyu.com">admin@secureyu.com</a>
+                        <a href="mailto:admin@unhack.com">admin@unhack.com</a>
                     </div>
                 </div>
 
@@ -221,7 +221,7 @@
                         <img src="assets/img/icons/footer1-icon4.png" alt="">
                     </div>
                     <div class="pera">
-                        <a href="mailto:admin@secureyu.com">www.secureyu.com</a>
+                        <a href="mailto:admin@unhack.com">admin@unhack.com</a>
                     </div>
                 </div>
 
@@ -925,9 +925,9 @@
 
 
                         <div class="get-started-box">
-                            <h3>Enhance Your Security with SecureYu</h3>
+                            <h3>Enhance Your Security with UnHack</h3>
                             <div class="space16"></div>
-                            <p>Explore SecureYu's expert services and swiftly uncover vulnerabilities, All at
+                            <p>Explore UnHack's expert services and swiftly uncover vulnerabilities, All at
                                 competitive pricing.</p>
                             <div class="space30"></div>
                             <a href="contact.html" class="get-started-btn">Get Started <span><i
@@ -1031,7 +1031,7 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseFive" aria-expanded="false"
                                     aria-controls="flush-collapseFive">
-                                    How Do I Get Started with SecureYu?
+                                    How Do I Get Started with UnHack?
                                 </button>
                             </h2>
                             <div id="flush-collapseFive" class="accordion-collapse collapse"
@@ -1046,7 +1046,7 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseSix" aria-expanded="false"
                                     aria-controls="flush-collapseSix">
-                                    How Does SecureYu Ensure Transparency in Pricing?
+                                    How Does UnHack Ensure Transparency in Pricing?
                                 </button>
                             </h2>
                             <div id="flush-collapseSix" class="accordion-collapse collapse"
@@ -1109,7 +1109,7 @@
                         <div class="heading2">
                             <h2>Secure Your Business Today</h2>
                             <div class="space16"></div>
-                            <p>See SecureYu's continous Pentest platform in action</p>
+                            <p>See UnHack's continous Pentest platform in action</p>
 
                             <div class="row">
                                 <div class="col-lg-8 m-auto">
@@ -1141,11 +1141,11 @@
                     <div class="col-lg-5 col-md-6 col-12">
                         <div class="single-footer-items footer-logo-area">
                             <div class="footer-logo">
-                                <a href="index.html"><img src="assets/images/logos/logo-footer.png" alt=""></a>
+                                <a href="index.html"><img src="assets/images/logos/UnHack-White.png" width="80%" alt=""></a>
                             </div>
                             <div class="space20"></div>
                             <div class="heading2">
-                                <p>At SecureYu, we deliver cutting-edge cybersecurity solutions, expertly crafted to
+                                <p>At UnHack, we deliver cutting-edge cybersecurity solutions, expertly crafted to
                                     safeguard your business from evolving threats.
                                     <span class="d-none d-lg-inline">Our commitment is to protect and fortify your
                                         digital assets, ensuring your operations remain secure.</span>
@@ -1181,7 +1181,7 @@
                             <h3>Quick Links</h3>
                             <ul class="menu-list">
                                 <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">SecureYu</a></li>
+                                <li><a href="about.html">UnHack</a></li>
                                 <li><a href="service.html">Services</a></li>
                                 <li><a href="pentest-report.html">Pentest Report</a></li>
 
@@ -1210,7 +1210,7 @@
                                     <img src="assets/img/icons/footer1-icon3.png" alt="">
                                 </div>
                                 <div class="pera">
-                                    <a href="mailto:info@secureyu.com">info@secureyu.com</a>
+                                    <a href="mailto:info@unhack.com">info@unhack.com</a>
                                 </div>
                             </div>
 
@@ -1219,7 +1219,7 @@
                                     <img src="assets/img/icons/footer1-icon4.png" alt="">
                                 </div>
                                 <div class="pera">
-                                    <a href="mailto:support@secureyu.com">admin@secureyu.com</a>
+                                    <a href="mailto:support@UnHack.com">admin@unhack.com</a>
                                 </div>
                             </div>
 
@@ -1236,7 +1236,7 @@
                     <div class="row align-items-center">
                         <div class="col-md-5">
                             <div class="coppyright">
-                                <p>Copyright &copy; 2024 SecureYu. All Rights Reserved</p>
+                                <p>Copyright &copy; 2024 UnHack. All Rights Reserved</p>
                             </div>
                         </div>
                         <div class="col-md-7">
