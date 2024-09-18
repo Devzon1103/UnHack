@@ -5836,8 +5836,14 @@ header.site-header span {
 .common-hero::after {
     top: 60px;
     left: 0;
-    background-image: url(../images/logos/UnHack-White-icon.png);
-    background-size: 20%
+    background-image: url(../img/bg/unhack-background.jpg);
+    /* background-image: url(https://img.freepik.com/free-vector/white-abstract-background-design_361591-1237.jpg?t=st=1726556455~exp=1726560055~hmac=42db087d9b4d48f70362d3876250ab6bb970b4b9aceba103a689a20212bd7aac&w=826); */
+    /* background-image: url(https://img.freepik.com/premium-photo/simple-graphic-with-white-background-blurred-effect_1106493-537074.jpg?w=826); */
+    opacity: 0.8;
+    background-size: 100%;
+    /* background-position-y: -270px; */
+    
+    
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -6218,11 +6224,11 @@ header.site-header span {
 }
 
 .preloader-area {
-    /* background: #191a1f; */
+    background: #191a1f;
     /* background:  rgba(30,33,48,1) */
     
     /* background-image: url(../img/bg/blurry-neon-light-background.avif);  */
-    background-size: cover;
+    /* background-size: cover; */
     
     position: fixed;
     width: 100%;
