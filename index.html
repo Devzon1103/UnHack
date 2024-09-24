@@ -71,12 +71,12 @@
     </div>
 
 
-    <!-- <div class="preloader-area">
+    <div class="preloader-area">
         <div class="preloader">
             <img src="assets/images/logos/UnHack-White-icon.png" class="logo" alt="Unhack Asia loader">
             <div class="loader"></div>
         </div>
-    </div> -->
+    </div>
     <style>
         .preloader {
             position: absolute;
@@ -172,7 +172,7 @@
 
 
     <!--=====HEADER START=======-->
-    <header>
+    <header >
         <div class="header-area header-area3 header-area-all d-none d-lg-block" id="header">
             <div class="container">
                 <div class="row">
@@ -200,14 +200,13 @@
                                         <ul>
 
                                             <li><a href="penetration-testing.html"> Penetration Testing </a></li>
-                                            <li><a href="forensic-investigation.html">Digital Forensic Investigation</a>
-                                            </li>
-                                            <li><a href="paas.html">Phishing as a Services (PaaS)</a></li>
-                                            <li><a href="red-teaming.html">Red Teaming </a></li>
-                                            <li><a href="blue-teaming.html">Blue Teaming </a></li>
-                                            <li><a href="purple-teaming.html">Purple Teaming </a></li>
-                                            <li><a href="cybercrime-investigation.html">Cybercrime Investigation </a>
-                                            </li>
+                                            <li><a href="red-and-blue-teaming.html">Red and Blue Teaming</a></li>
+                                            <li><a href="web-and-android-app-security.html">Web and Android </a></li>
+                                            <li><a href="cloud-security.html">Cloud Security</a></li>
+                                            <li><a href="paas.html">Phishing </a></li>
+                                            <li><a href="virtual-chief-information-security-officer-service.html">VCISO </a></li>
+                                            <li><a href="security-operations-center-service.html">SOC </a></li>
+                                            <li><a href="managed-security-services.html">Managed Services</a></li>
                                         </ul>
                                     </li>
 
@@ -285,7 +284,7 @@
 
     <div class="mobile-sidebar d-block d-lg-none">
         <div class="logo-m">
-            <a href="index.html"><img src="assets/images/logos/UnHack-White.png" loading="lazy"
+            <a href="index.html"><img src="assets/images/logos/UnHack-White.png" style="max-width: 70% !important;" loading="lazy"
                     alt="Unhack Asia logo"></a>
         </div>
         <div class="menu-close">
@@ -299,14 +298,17 @@
                 </li>
                 <li><a href="about.html">About Us</a></li>
                 <li class="has-dropdown"><a href="service.html">Service</a>
+                    
                     <ul class="sub-menu">
+
                         <li><a href="penetration-testing.html"> Penetration Testing </a></li>
-                        <li><a href="forensic-investigation.html">Digital Forensic Investigation</a></li>
-                        <li><a href="paas.html">Phishing as a Services (PaaS)</a></li>
-                        <li><a href="red-teaming.html">Red Teaming </a></li>
-                        <li><a href="blue-teaming.html">Blue Teaming </a></li>
-                        <li><a href="purple-teaming.html">Purple Teaming </a></li>
-                        <li><a href="cybercrime-investigation.html">Cybercrime Investigation </a></li>
+                        <li><a href="red-and-blue-teaming.html">Red and Blue Teaming</a></li>
+                        <li><a href="web-and-android-app-security.html">Web and Android </a></li>
+                        <li><a href="cloud-security.html">Cloud Security</a></li>
+                        <li><a href="paas.html">Phishing </a></li>
+                        <li><a href="virtual-chief-information-security-officer-service.html">VCISO </a></li>
+                        <li><a href="security-operations-center-service.html">SOC </a></li>
+                        <li><a href="managed-security-services.html">Managed Services</a></li>
                     </ul>
                 </li>
 
@@ -353,12 +355,10 @@
             </div>
 
             <div class="contact-infos">
-                <h3>Our Location</h3>
                 <ul class="social-icon">
-
-
-
                     <li><a href="https://www.instagram.com/unhack.asia/"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://x.com/UnHack_Asia"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://maps.app.goo.gl/JktzuzaFyHSePu3e6"><i class="fa-solid fa-map-marker-alt"></i></a></li>
                 </ul>
             </div>
 
@@ -368,9 +368,10 @@
     <!--=====Mobile header end=======-->
 
     <!--=====HERO AREA START=======-->
-
+    <script src="assets/js/particles.js"></script>
     <div class="hero3" 
-        style="background-image: url(assets/img/bg/hero3-bg.webp); background-position: center center; background-size: cover; background-repeat: no-repeat;">
+        style="background-image: url(assets/img/bg/hero3-bg.webp); background-position: center center; background-size: cover; background-repeat: no-repeat;" id="particles-js">
+        
         <div class="container" >
             <div class="row">
                 <div class="col-lg-9 m-auto text-center">
@@ -388,7 +389,7 @@
                         </p>
 
 
-                        <!-- <img class="arrow-shape" src="assets/img/shapes/hero3-arrow-shape.png" alt="Unhack Asia arrow"> -->
+                        <img class="arrow-shape" src="assets/img/shapes/hero3-arrow-shape.png" alt="Unhack Asia arrow">
                         <div class="space50"></div>
                         <p class="pt-3">
                             <a class="theme-btn4 btn--ripple ripple" href="contact.html">Schedule a Demo<i
@@ -504,7 +505,7 @@
             <div class="space30"></div>
             <div class="row align-items-center">
                 <div class="col-lg-4">
-                    <div class="" data-aos="fade-right" data-aos-duration="700">
+                    <a  class="service-a" href="penetration-testing.html" data-aos="fade-right" data-aos-duration="700">
                         <div class="service3-box">
                             <div class="">
                                 <div class="icon">
@@ -513,35 +514,33 @@
                                 </div>
                             </div>
                             <div class="heading3">
-                                <h4><a href="penetration-testing.html">Network Pentest</a></h4>
+                                <h4><span>Network Pentest</span></h4>
                                 <!-- <div class="space16"></div> -->
                                 <p>
                                     Secure your private networks with tailored assessments.
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="" data-aos="fade-right" data-aos-duration="1100">
+                    <a href="web-and-android-app-security.html" class="" data-aos="fade-right" data-aos-duration="1100">
                         <div class="service3-box">
                             <div class="">
                                 <div class="icon">
                                     <img src="assets/img/icons/service3-iocn2.png"
-                                        alt="Unhack Asia Digital Forensic Investigation">
+                                        alt="Unhack Asia Web & Android App">
                                 </div>
                             </div>
                             <div class="heading3">
-                                <h4><a href="forensic-investigation.html">Web & Android App</a></h4>
+                                <h4><span>Web & Android App</span></h4>
                                 <!-- <div class="space16"></div> -->
                                 <p> A deep and thorough assessment of your application.
-
-
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="" data-aos="fade-right" data-aos-duration="900">
+                    <a href="paas.html" class="" data-aos="fade-right" data-aos-duration="900">
                         <div class="service3-box">
                             <div class="">
                                 <div class="icon">
@@ -550,34 +549,34 @@
                                 </div>
                             </div>
                             <div class="heading3">
-                                <h4><a href="paas.html">Phishing
-                                    </a></h4>
+                                <h4><span>Phishing
+                                    </span></h4>
                                 <!-- <div class="space16"></div> -->
                                 <p>
                                     Test security awareness through phishing simulations effectively.
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="" data-aos="fade-right" data-aos-duration="900">
+                    <a href="security-operations-center-service.html" class="" data-aos="fade-right" data-aos-duration="900">
                         <div class="service3-box">
                             <div class="">
                                 <div class="icon">
                                     <img src="assets/img/icons/service3-iocn3.png"
-                                        alt="Unhack Asia Phishing as a Service">
+                                        alt="Unhack Asia SOC">
                                 </div>
                             </div>
                             <div class="heading3">
-                                <h4><a href="paas.html">SOC
-                                    </a></h4>
+                                <h4><span >SOC
+                                    </span></h4>
                                 <!-- <div class="space16"></div> -->
                                 <p>
                                     Enhance security with comprehensive monitoring and response.
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </a>
 
                 </div>
 
@@ -586,9 +585,18 @@
                         <img src="assets/img/service/service-img.webp" loading="lazy" alt="Unhack Asia services">
                     </div>
                 </div>
+                <style>
+                    .service3-box:hover h4 span {
+                     color: white !important;
+                     transition: all 0.5s;
+                    }
+                     h4 span{
+                        color: #000 !important;
+                     }
+                </style>
 
                 <div class="col-lg-4">
-                    <div class="" data-aos="fade-left" data-aos-duration="700">
+                    <a href="red-and-blue-teaming.html" class="" data-aos="fade-left" data-aos-duration="700">
                         <div class="service3-box">
                             <div class="">
                                 <div class="icon">
@@ -596,66 +604,67 @@
                                 </div>
                             </div>
                             <div class="heading3">
-                                <h4><a href="red-teaming.html">Red & Blue Teaming
-                                    </a></h4>
+                                <h4><span>Red & Blue Teaming
+                                    </span></h4>
                                 <!-- <div class="space16"></div> -->
                                 <p>
                                     Evaluate security without exposing organizational risks.
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </a>
 
-                    <div data-aos="fade-left" data-aos-duration="1100">
+                    <a href="cloud-security.html" data-aos="fade-left" data-aos-duration="1100">
                         <div class="service3-box">
                             <div class="">
                                 <div class="icon">
-                                    <img src="assets/img/icons/service3-iocn5.png" alt="Unhack Asia Blue Teaming">
+                                    <img src="assets/img/icons/service3-iocn5.png" alt="Unhack Asia Cloud">
                                 </div>
                             </div>
                             <div class="heading3">
-                                <h4><a href="blue-teaming.html">Cloud</a></h4>
+                                <h4><span>Cloud</span></h4>
                                 <!-- <div class="space16"></div> -->
                                 <p>
                                     An Overall security assessment of your cloud environment.
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="" data-aos="fade-left" data-aos-duration="900">
+                    <a href="virtual-chief-information-security-officer-service.html" class="" data-aos="fade-left" data-aos-duration="900">
                         <div class="service3-box">
                             <div class="">
                                 <div class="icon">
-                                    <img src="assets/img/icons/service3-iocn6.png" alt="Unhack Asia Purple Teaming">
+                                    <img src="assets/img/icons/service3-iocn6.png" alt="Unhack Asia vCISO">
                                 </div>
                             </div>
                             <div class="heading3">
-                                <h4><a href="cybercrime-investigation.html">vCISO</a></h4>
+                                <h4><span>vCISO</span></h4>
                                 <!-- <div class="space16"></div> -->
                                 <p>
                                     An assessment of the private networks of your organization.
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="" data-aos="fade-left" data-aos-duration="1000">
+                    <a href="managed-security-services.html" class="" data-aos="fade-left" data-aos-duration="900">
                         <div class="service3-box">
                             <div class="">
                                 <div class="icon">
-                                    <img src="assets/img/icons/service3-iocn6.png" alt="Unhack Asia Purple Teaming">
+                                    <img src="assets/img/icons/service3-iocn6.png" alt="Unhack Asia Managed Services">
                                 </div>
                             </div>
                             <div class="heading3">
-                                <h4><a href="cybercrime-investigation.html">Managed Services</a></h4>
+                                <h4><span>Managed Services</span></h4>
                                 <!-- <div class="space16"></div> -->
                                 <p>
                                     Rely on unhack for workforce and staff augmentation.
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </a>
+                    
 
                 </div>
 
@@ -770,23 +779,25 @@
             </div>
             <div class="space30"></div>
             <div class=" align-items-center items">
-                <a href="https://www.logiqguru.com/" class="item  image-anime">
-                    <img src="assets/img/clients/logiqguru-logo.png" alt="unhack">
-                </a>
-                <a href="https://www.techmahindra.com/" class="item  image-anime">
+                
+                <a target="_blank" href="https://www.techmahindra.com/" class="item  image-anime">
                     <img src="assets/img/clients/Tech_Mahindra-Logo.svg" alt="unhack">
                 </a>
-                <a href="https://zippymsg.com/" class="item  image-anime">
-                    <img src="assets/img/clients/zippymsg.png" alt="unhack">
-                </a>
-                <a href="https://www.healthurwealth.com/" class="item  image-anime">
-                    <img src="assets/img/clients/healthurwealth.png" alt="unhack">
-                </a>
-                <a href="https://www.unifiedcouncil.com/" class="item  image-anime">
+                <a target="_blank" href="https://www.unifiedcouncil.com/" class="item  image-anime">
                     <img src="assets/img/clients/unified-council.png" alt="unhack">
                 </a>
-                <a href="https://www.flyingstars.co/" class="item  image-anime">
+                <a target="_blank" href="https://www.healthurwealth.com/" class="item  image-anime">
+                    <img src="assets/img/clients/healthurwealth.png" alt="unhack">
+                </a>
+                <a target="_blank" href="https://zippymsg.com/" class="item  image-anime">
+                    <img src="assets/img/clients/zippymsg.png" alt="unhack">
+                </a>
+                
+                <a target="_blank" href="https://www.flyingstars.co/" class="item  image-anime">
                     <img src="assets/img/clients/flimgStar.jpg" alt="unhack">
+                </a>
+                <a target="_blank" href="https://www.logiqguru.com/" class="item  image-anime">
+                    <img src="assets/img/clients/logiqguru-logo.png" alt="unhack">
                 </a>
 
 
@@ -930,7 +941,8 @@
         </video>
 
         <div class="content">
-            <h2>Hackers Don't Sleep. Neither Does vPenTest.</h2>
+            <h2>
+                Hackers don't sleep. Neither does UnHack.</h2>
             <p>
                 If your organization was targeted tomorrow, would you be prepared? Let's work together and find out.
             </p>
@@ -952,12 +964,11 @@
                 <div class="col-lg-4">
                     <div class="heading3">
                         <span class="span" data-aos="zoom-in-left" data-aos-duration="700">Our Method</span>
-                        <h2 class="title tg-element-title">Strengthen  <br>Your Security</h2>
+                        <h2 class="title tg-element-title">Strengthening  <br> Security Posture
+                        </h2>
                         <div class="space16"></div>
                         <p data-aos="fade-right" data-aos-duration="700">
-                            Strengthen your security with cutting-edge technologies and proactive strategies, while
-                            fostering a
-                            culture of cybersecurity awareness.
+                            At Unhack, we enhance your security framework through innovative technologies and proactive strategies while nurturing a culture of cybersecurity awareness.
                         </p>
                         <div class="space30"></div>
                         <div class="" data-aos="fade-right" data-aos-duration="900">
@@ -981,7 +992,7 @@
                         <div class="heading3">
                             <span class="stap">STEP 01</span>
                             <h3><a href="service-details.html">Consultation and Assessment </a></h3>
-                            <p>We start by understanding your needs and evaluating your current security landscape.</p>
+                            <p>We begin by understanding your needs and evaluating your  security posture.</p>
                         </div>
                     </div>
                 </div>
@@ -990,7 +1001,7 @@
                         <div class="heading3">
                             <span class="stap">STEP 02</span>
                             <h3><a href="service-details.html">Customised Solution Design </a></h3>
-                            <p>We develop tailored security solutions to meet your unique requirements.</p>
+                            <p>Our team designs tailored security solutions to meet your unique requirements.</p>
                         </div>
                     </div>
                 </div>
@@ -1013,7 +1024,7 @@
                             <span class="stap">STEP 04</span>
                             <h3><a href="service-details.html">Deployment and Integration</a></h3>
                             <p>
-                                We integrate the solution into your operations, ensuring peak performance and security.
+                                We  integrate the solutions into your operations for optimal  security.
                             </p>
                         </div>
                     </div>
@@ -1025,187 +1036,6 @@
 
     <!--=====WORK AREA END=======-->
 
-    <!--=====FAQ AREA start=======-->
-
-    <!-- <div class="faq3 sp">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 m-auto text-center">
-                    <div class="heading3">
-                        <span class="span" data-aos="zoom-in-left" data-aos-duration="700"> FAQ’S</span>
-                        <h2 class="title tg-element-title">Your Questions, Answered </h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="space40"></div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="accordion accordion1 accordion-flush" id="accordionFlushExample">
-                        <div class="accordion-item active" data-aos="fade-up" data-aos-duration="700">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                    aria-controls="flush-collapseOne">
-                                    What services does UnHack offer?
-                                </button>
-                            </h2>
-                            <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">UnHack provides comprehensive cybersecurity solutions,
-                                    Including
-                                    penetration testing, Digital forensic investigations and vulnerability assessments.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1200">
-                            <h2 class="accordion-header" id="flush-headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                    aria-controls="flush-collapseTwo">
-                                    How can UnHack enhance my business’s security?
-                                </button>
-                            </h2>
-                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">We offer tailored solutions to address your specific
-                                    security needs and
-                                    strengthen your defenses against cyber threats.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item" data-aos="fade-up" data-aos-duration="900">
-                            <h2 class="accordion-header" id="flush-headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
-                                    aria-controls="flush-collapseThree">
-                                    What industries does UnHack serve?
-                                </button>
-                            </h2>
-                            <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">UnHack serves a wide range of industries, Providing tailored
-                                    cybersecurity
-                                    solutions to meet diverse needs.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
-                            <h2 class="accordion-header" id="flush-headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
-                                    aria-controls="flush-collapseFour">
-                                    How experienced is the UnHack team?
-                                </button>
-                            </h2>
-                            <div id="flush-collapseFour" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Our team comprises highly skilled professionals with
-                                    extensive experience in
-                                    cybersecurity, Dedicated to protecting your digital assets.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item" data-aos="fade-up" data-aos-duration="900">
-                            <h2 class="accordion-header" id="flush-headingFive">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseFive" aria-expanded="false"
-                                    aria-controls="flush-collapseFive">
-                                    How long does it take to implement a solution?
-                                </button>
-                            </h2>
-                            <div id="flush-collapseFive" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Implementation time varies based on the complexity of the
-                                    solution, But we
-                                    ensure timely and efficient deployment to meet your needs.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="accordion accordion2 accordion-flush" id="accordionFlushExample2">
-                        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1100">
-                            <h2 class="accordion-header" id="flush-headingSix">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseSix" aria-expanded="false"
-                                    aria-controls="flush-collapseSix">
-                                    How do I get started with UnHack?
-                                </button>
-                            </h2>
-                            <div id="flush-collapseSix" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample2">
-                                <div class="accordion-body">Getting started is easy. Contact us to schedule a
-                                    consultation and we’ll
-                                    guide you through the process.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item" data-aos="fade-up" data-aos-duration="900">
-                            <h2 class="accordion-header" id="flush-headingSeven">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseSeven" aria-expanded="false"
-                                    aria-controls="flush-collapseSeven">
-                                    How does UnHack ensure data security and privacy?
-                                </button>
-                            </h2>
-                            <div id="flush-collapseSeven" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample2">
-                                <div class="accordion-body">We adhere to strict data security and privacy protocols,
-                                    Ensuring your
-                                    information is protected at all times.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1200">
-                            <h2 class="accordion-header" id="flush-headingEight">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseEight" aria-expanded="false"
-                                    aria-controls="flush-collapseEight">
-                                    What is the process for requesting a consultation?
-                                </button>
-                            </h2>
-                            <div id="flush-collapseEight" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample2">
-                                <div class="accordion-body">To request a consultation, simply contact us through our
-                                    website or reach
-                                    out to our team directly.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item" data-aos="fade-up" data-aos-duration="900">
-                            <h2 class="accordion-header" id="flush-headingNine">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseNine" aria-expanded="false"
-                                    aria-controls="flush-collapseNine">
-                                    Can you provide references or case studies?
-                                </button>
-                            </h2>
-                            <div id="flush-collapseNine" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample2">
-                                <div class="accordion-body">Yes, We can provide references or case studies of past
-                                    projects upon request
-                                    to demonstrate our track record.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item active" data-aos="fade-up" data-aos-duration="1200">
-                            <h2 class="accordion-header" id="flush-headingTen">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseTen" aria-expanded="false"
-                                    aria-controls="flush-collapseTen">
-                                    What industries does UnHack serve?
-                                </button>
-                            </h2>
-                            <div id="flush-collapseTen" class="accordion-collapse collapse "
-                                aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample2">
-                                <div class="accordion-body">We serve a broad range of industries, Offering customized
-                                    cybersecurity
-                                    solutions to meet the unique needs of each sector.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div> -->
-
-    <!--=====FAQ AREA END=======-->
 
     <!-- clients area starts  -->
 
@@ -1232,9 +1062,7 @@
                                 <img src="assets/img/logo/slider-logo4.png" alt="">
                             </div>
 
-                            <div class="brand-single-box">
-                                <img src="assets/img/logo/slider-logo5.png" alt="">
-                            </div>
+                            
 
                             <div class="brand-single-box">
                                 <img src="assets/img/logo/slider-logo6.png" alt="">
@@ -1258,9 +1086,7 @@
                                 <img src="assets/img/logo/slider-logo4.png" alt="">
                             </div>
 
-                            <div class="brand-single-box">
-                                <img src="assets/img/logo/slider-logo5.png" alt="">
-                            </div>
+                            
 
                             <div class="brand-single-box">
                                 <img src="assets/img/logo/slider-logo6.png" alt="">
@@ -1272,9 +1098,7 @@
                                 <img src="assets/img/logo/slider-logo4.png" alt="">
                             </div>
 
-                            <div class="brand-single-box">
-                                <img src="assets/img/logo/slider-logo5.png" alt="">
-                            </div>
+                            
 
                             <div class="brand-single-box">
                                 <img src="assets/img/logo/slider-logo6.png" alt="">
@@ -1295,9 +1119,7 @@
                                 <img src="assets/img/logo/slider-logo4.png" alt="">
                             </div>
 
-                            <div class="brand-single-box">
-                                <img src="assets/img/logo/slider-logo5.png" alt="">
-                            </div>
+                            
 
                             <div class="brand-single-box">
                                 <img src="assets/img/logo/slider-logo6.png" alt="">
@@ -1387,14 +1209,16 @@
                     <div class="col-lg-3 px-lg-0 col-md-6 col-12">
                         <div class="single-footer-items">
                             <h3>Our Services</h3>
+                            
                             <ul class="menu-list">
-                                <li><a href="penetration-testing.html">Penetration Testing</a></li>
-                                <li><a href="forensic-investigation.html">Digital Forensic Investigation</a></li>
-                                <li><a href="paas.html">Phishing as a Service </a></li>
-                                <li><a href="red-teaming.html">Red Teaming</a></li>
-                                <li><a href="blue-teaming.html">Blue Teaming</a></li>
-                                <li><a href="purple-teaming.html">Purple Teaming</a></li>
-                                <li><a href="cybercrime-investigation.html">Cyber Investigation</a></li>
+                                <li><a href="penetration-testing.html"> Penetration Testing </a></li>
+                                <li><a href="red-and-blue-teaming.html">Red and Blue Teaming</a></li>
+                                <li><a href="web-and-android-app-security.html">Web and Android </a></li>
+                                <li><a href="managed-security-services.html">Managed Services</a></li>
+                                <li><a href="cloud-security.html">Cloud Security</a></li>
+                                <li><a href="paas.html">Phishing </a></li>
+                                <li><a href="virtual-chief-information-security-officer-service.html">VCISO </a></li>
+                                <li><a href="security-operations-center-service.html">SOC </a></li>
                             </ul>
                         </div>
                     </div>
