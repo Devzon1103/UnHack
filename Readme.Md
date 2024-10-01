@@ -15,3 +15,9 @@ INTRODUCTION
 
 ‍
 
+loader done
+new cards section done
+live threat attack ...
+and contact form recaptcha
+
+back link in mobile

@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leading Cybersecurity Firm in Asia Specialising in Penetration Testing | UnHack </title>
+    <title>Leading Cybersecurity Firm in Asia Specialising in Penetration Testing</title>
 
     <meta name="description"
         content="UnHack is a top cybersecurity provider in Asia, Offering advanced penetration testing and vulnerability assessment services to safeguard businesses from cyber threats. Our mission is to continuously innovate and educate on cybersecurity best practices.">
@@ -13,20 +13,69 @@
     <!--=====FAV ICON=======-->
     <link rel="shortcut icon" id="favicon" href="assets/images/logos/favicon.png" type="image/x-icon">
 
+    <!-- Robots Meta Tag -->
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
 
-    <meta content="https://unhack.asia/" property="og:url">
+     <!-- Author Tag -->
+     <meta name="author" content="Unhack">
+
+     <!-- keywords -->
+     <meta name="keywords" content="cybersecurity, penetration testing, vulnerability assessment, cybersecurity
+     services, cybersecurity provider, cybersecurity firm, cybersecurity company, cybersecurity solutions, cybersecurity
+     consulting, cybersecurity training, cybersecurity awareness, cybersecurity best practices, cybersecurity
+     education, Penetration Testing services, Vulnerability assessment">
+
     <link rel="canonical" href="https://unhack.asia/">
-    <meta content="Leading cybersecurity firm in Asia specializing in penetration testing | UnHack"
-        property="og:title">
-    <meta name="twitter:title"
-        content="Leading cybersecurity firm in Asia specializing in penetration testing | UnHack">
-    <meta content="website" property="og:type">
+    <meta property="og:title" content="Leading Cybersecurity Firm in Asia Specializing in Penetration Testing | UnHack">
     <meta property="og:description"
-        content="UnHack is a top cybersecurity provider in Asia, Offering advanced penetration testing and vulnerability assessment services to safeguard businesses from cyber threats. Our mission is to continuously innovate and educate on cybersecurity best practices.">
+        content="UnHack is a top cybersecurity provider in Asia, offering advanced penetration testing and vulnerability assessment services to safeguard businesses from cyber threats.">
+    <meta property="og:image" content="https://unhack.asia/assets/images/logos/UnHack-White.png">
+    <meta property="og:url" content="https://unhack.asia/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title"
+        content="Leading Cybersecurity Firm in Asia Specializing in Penetration Testing | UnHack">
     <meta name="twitter:description"
-        content="UnHack is a top cybersecurity provider in Asia, Offering advanced penetration testing and vulnerability assessment services to safeguard businesses from cyber threats. Our mission is to continuously innovate and educate on cybersecurity best practices.">
-    <meta name="keywords" content="cybersecurity firm Asia,  Penetration Testing services, Vulnerability assessment">
-    <link rel="alternate" hreflang="x-default" href="https://unhack.asia/">
+        content="UnHack is a leading cybersecurity provider in Asia, offering advanced penetration testing and vulnerability assessment services.">
+    <meta name="twitter:image" content="https://unhack.asia/assets/images/logos/UnHack-White.png">
+
+
+   <!-- Hreflang Tag -->
+   <link rel="alternate" hreflang="x-default" href="https://unhack.asia/">
+
+     <!-- Schema Markup -->
+     <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "UnHack",
+          "url": "https://unhack.asia/",
+          "logo": "https://unhack.asia/assets/images/logos/UnHack-White.png",
+          "description": "UnHack is a leading cybersecurity provider in Asia, offering advanced penetration testing and vulnerability assessment services.",
+          "sameAs": [
+            "https://x.com/UnHack_Asia",
+            "https://www.instagram.com/unhack.asia/"
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "3rd Floor, CWS One, Kondapur",
+            "addressLocality": "Hyderabad",
+            "addressRegion": "Telangana",
+            "postalCode": "500084",
+            "addressCountry": "India"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+91 6301321082",
+            "contactType": "Customer Support",
+            "areaServed": "Asia",
+            "availableLanguage": ["English", "Hindi", "Telugu"]
+          }
+        }
+        </script>
 
     <!-- Preconnect to Google Fonts CDN -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,7 +83,7 @@
 
 
     <!--=====CSS=======-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
@@ -43,6 +92,7 @@
     <link rel="stylesheet" href="assets/css/aos.css">
     <link rel="stylesheet" href="assets/css/mobile-menu.css">
     <link rel="stylesheet" href="assets/css/main.css">
+
 
 
 
@@ -65,7 +115,7 @@
 
     </div>
 
-    
+
 
 
     <!-- <div class="preloader-area">
@@ -165,7 +215,7 @@
         }
     </style>
 
-<!-- <div id="mask-grid"></div>
+    <!-- <div id="mask-grid"></div>
 <link rel="stylesheet" href="assets/mask-grid/mask-grid.css">
 
 <script src="assets/mask-grid/header.js"></script>
@@ -257,8 +307,8 @@
 
 
                                 <div class="button">
-                                    <a class="theme-btn4 btn2--ripple ripple p-3" href="live-threat-attack.html">Live Threat Attack <i
-                                            class="fa-solid fa-arrow-right"></i></a>
+                                    <a class="theme-btn4 btn2--ripple ripple p-3" href="live-threat-attack.html">Live
+                                        Threat Attack <i class="fa-solid fa-arrow-right"></i></a>
                                 </div>
                             </div>
 
@@ -512,7 +562,7 @@
             <div class="space30"></div>
             <div class="row align-items-center">
                 <div class="col-lg-4">
-                    <a class="service-a" href="penetration-testing.html" >
+                    <a class="service-a" href="penetration-testing.html">
                         <div class="service3-box">
                             <div class="">
                                 <div class="icon">
@@ -689,7 +739,7 @@
         <div class="container">
             <div class="row m-0 rounded-3">
                 <div class="col-12 col-lg-7 rounded-3 image-anime p-2">
-                    <img class="rounded-2" src="assets/img/bg/UnHack-Banner1.png" alt="unhack asia">
+                    <img loading="lazy" class="rounded-2" src="assets/img/bg/UnHack-Banner1.webp" alt="unhack asia">
                 </div>
 
                 <div class="col-12 col-lg-5 rounded-3 p-2   p-lg-3 ps-lg-4 pt-lg-1 ">
@@ -792,32 +842,32 @@
             <div class=" align-items-center items">
 
                 <a target="_blank" href="https://www.gm.com/" class="item  image-anime">
-                    <img src="assets/img/clients/general-motors.png" alt="unhack asia client general motors">
+                    <img src="assets/img/clients/general-motors.webp" alt="unhack asia client general motors">
                 </a>
                 <a target="_blank" href="https://www.techmahindra.com/" class="item  image-anime">
                     <img src="assets/img/clients/Tech_Mahindra-Logo.svg" alt="unhack asia client Tech Mahindra">
                 </a>
                 <a target="_blank" href="https://ntvtelugu.com/" class="item  image-anime">
-                    <img src="assets/img/clients/ntv.png" alt="unhack asia client ntv">
+                    <img src="assets/img/clients/ntv.webp" alt="unhack asia client ntv">
                 </a>
                 <a target="_blank" href="https://www.unifiedcouncil.com/" class="item  image-anime">
-                    <img src="assets/img/clients/unified-council.png" alt="unhack asia client unified council">
+                    <img src="assets/img/clients/unified-council.webp" alt="unhack asia client unified council">
                 </a>
                 <a target="_blank" href="https://www.healthurwealth.com/" class="item  image-anime">
-                    <img src="assets/img/clients/healthurwealth.png" alt="unhack asia client healthurwealth">
+                    <img src="assets/img/clients/healthurwealth.webp" alt="unhack asia client healthurwealth">
                 </a>
                 <a target="_blank" href="https://zippymsg.com/" class="item  image-anime">
                     <img src="assets/img/clients/zippymsg.png" alt="unhack asia client zippymsg">
                 </a>
                 <a target="_blank" href="http://bantu.fyi/" class="item  image-anime">
-                    <img src="assets/img/clients/bantu-logo.png" style="padding: 20% 30%;"
+                    <img src="assets/img/clients/bantu-logo.webp" style="padding: 20% 30%;"
                         alt="unhack asia client bantu">
                 </a>
                 <a target="_blank" href="https://www.logiqguru.com/" class="item  image-anime">
-                    <img src="assets/img/clients/logiqguru-logo.png" alt="unhack asia client logiqguru">
+                    <img src="assets/img/clients/logiqguru-logo.webp" alt="unhack asia client logiqguru">
                 </a>
                 <a target="_blank" href="https://rvcoklahoma.com/" class="item  image-anime">
-                    <img src="assets/img/clients/retina.png" alt="unhack asia client rvcoklahoma">
+                    <img src="assets/img/clients/retina.webp" alt="unhack asia client rvcoklahoma">
                 </a>
 
 
@@ -827,21 +877,22 @@
     <!-- who we serve end -->
 
     <style>
-        .checkbox-icon{
+        .checkbox-icon {
             padding: 5px;
-            border-radius:5px ;
+            border-radius: 5px;
             color: #123ede;
             background: #123ede2f;
             font-size: 0.7em;
         }
-        .checkbox-text{
+
+        .checkbox-text {
             font-size: 0.75em;
         }
-        .text-small{
+
+        .text-small {
             font-size: 0.8em !important;
             padding: 0% 5%;
         }
-        
     </style>
 
     <!--=====Who we can help start=======-->
@@ -855,14 +906,15 @@
                     </div>
                 </div>
             </div>
-            <div class="space30"></div> 
+            <div class="space30"></div>
             <div class="row m-0 rounded-3">
                 <div class="col-12 col-lg-4 p-2 p-lg-3">
-                   <div class="service-a new-card shadow  p-2 p-lg-3 rounded-2">
+                    <div class="service-a new-card shadow  p-2 p-lg-3 rounded-2">
                         <div class="service3-box hover-none text-center">
                             <div class="">
                                 <div class="icon">
-                                    <i class="fa-2x mb-3 bg-primary-subtle rounded-circle p-3  rounded fas  fa-phone p-2  "></i>
+                                    <i
+                                        class="fa-2x mb-3 bg-primary-subtle rounded-circle p-3  rounded fas  fa-phone p-2  "></i>
                                 </div>
                             </div>
                             <div class="heading3">
@@ -872,16 +924,20 @@
                                 </p> -->
                                 <div class="row text-start px-2 px-lg-4">
                                     <div class="col-6 p-0 pb-2 ">
-                                        <i class="fas fa-check checkbox-icon"></i> <span class="checkbox-text"> Risk Assessment</span>
+                                        <i class="fas fa-check checkbox-icon"></i> <span class="checkbox-text"> Risk
+                                            Assessment</span>
                                     </div>
                                     <div class="col-6 p-0 pb-2 ">
-                                        <i class="fas fa-check checkbox-icon"></i> <span class="checkbox-text"> Compliance Review</span>
+                                        <i class="fas fa-check checkbox-icon"></i> <span class="checkbox-text">
+                                            Compliance Review</span>
                                     </div>
                                     <div class="col-6 p-0 pb-2 ">
-                                        <i class="fas fa-check checkbox-icon"></i> <span class="checkbox-text"> Custom Consultation</span>
+                                        <i class="fas fa-check checkbox-icon"></i> <span class="checkbox-text"> Custom
+                                            Consultation</span>
                                     </div>
                                     <div class="col-6 p-0 pb-2 ">
-                                        <i class="fas fa-check checkbox-icon"></i> <span class="checkbox-text"> Technology Overview</span>
+                                        <i class="fas fa-check checkbox-icon"></i> <span class="checkbox-text">
+                                            Technology Overview</span>
                                     </div>
                                 </div>
                             </div>
@@ -889,11 +945,12 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 p-2 p-lg-3">
-                   <div class="service-a new-card shadow  p-2 p-lg-3 rounded-2">
+                    <div class="service-a new-card shadow  p-2 p-lg-3 rounded-2">
                         <div class="service3-box hover-none text-center">
                             <div class="">
                                 <div class="icon">
-                                    <i class="fa-2x mb-3 bg-primary-subtle rounded-circle p-3  rounded fas  fa-laptop-code p-2  "></i>
+                                    <i
+                                        class="fa-2x mb-3 bg-primary-subtle rounded-circle p-3  rounded fas  fa-laptop-code p-2  "></i>
                                 </div>
                             </div>
                             <div class="heading3">
@@ -903,16 +960,20 @@
                                 </p> -->
                                 <div class="row text-start px-2 px-lg-4 ">
                                     <div class="col-6 p-0 pb-2 ">
-                                        <i class="fas fa-check checkbox-icon"></i> <span class="checkbox-text"> Threat Modeling</span>
+                                        <i class="fas fa-check checkbox-icon"></i> <span class="checkbox-text"> Threat
+                                            Modeling</span>
                                     </div>
                                     <div class="col-6 p-0 pb-2 ">
-                                        <i class="fas fa-check checkbox-icon"></i> <span class="checkbox-text">  Response Plan</span>
+                                        <i class="fas fa-check checkbox-icon"></i> <span class="checkbox-text"> Response
+                                            Plan</span>
                                     </div>
                                     <div class="col-6 p-0 pb-2 ">
-                                        <i class="fas fa-check checkbox-icon"></i> <span class="checkbox-text"> Protection Strategy</span>
+                                        <i class="fas fa-check checkbox-icon"></i> <span class="checkbox-text">
+                                            Protection Strategy</span>
                                     </div>
                                     <div class="col-6 p-0 pb-2 ">
-                                        <i class="fas fa-check checkbox-icon"></i> <span class="checkbox-text"> Trust  Architecture</span>
+                                        <i class="fas fa-check checkbox-icon"></i> <span class="checkbox-text"> Trust
+                                            Architecture</span>
                                     </div>
                                 </div>
                             </div>
@@ -920,11 +981,12 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 p-2 p-lg-3">
-                   <div class="service-a new-card shadow  p-2 p-lg-3 rounded-2">
+                    <div class="service-a new-card shadow  p-2 p-lg-3 rounded-2">
                         <div class="service3-box hover-none text-center">
                             <div class="">
                                 <div class="icon">
-                                    <i class="fa-2x mb-3 bg-primary-subtle rounded-circle p-3  rounded fas  fa-lock p-2  "></i>
+                                    <i
+                                        class="fa-2x mb-3 bg-primary-subtle rounded-circle p-3  rounded fas  fa-lock p-2  "></i>
                                 </div>
                             </div>
                             <div class="heading3">
@@ -934,16 +996,20 @@
                                 </p> -->
                                 <div class="row text-start px-2 px-lg-4 ">
                                     <div class="col-6 p-0 pb-2 ">
-                                        <i class="fas fa-check checkbox-icon"></i> <span class="checkbox-text"> Data Encryption</span>
+                                        <i class="fas fa-check checkbox-icon"></i> <span class="checkbox-text"> Data
+                                            Encryption</span>
                                     </div>
                                     <div class="col-6 p-0 pb-2 ">
-                                        <i class="fas fa-check checkbox-icon"></i> <span class="checkbox-text"> Authentication</span>
+                                        <i class="fas fa-check checkbox-icon"></i> <span class="checkbox-text">
+                                            Authentication</span>
                                     </div>
                                     <div class="col-6 p-0 pb-2 ">
-                                        <i class="fas fa-check checkbox-icon"></i> <span class="checkbox-text"> 24/7 Monitoring</span>
+                                        <i class="fas fa-check checkbox-icon"></i> <span class="checkbox-text"> 24/7
+                                            Monitoring</span>
                                     </div>
                                     <div class="col-6 p-0 pb-2 ">
-                                        <i class="fas fa-check checkbox-icon"></i> <span class="checkbox-text">  Intrusion Detection</span>
+                                        <i class="fas fa-check checkbox-icon"></i> <span class="checkbox-text">
+                                            Intrusion Detection</span>
                                     </div>
                                 </div>
                             </div>
@@ -951,7 +1017,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </div>
     <!--=====Who we can help end=======-->
@@ -966,7 +1032,9 @@
                             Who we are?
                         </div>
                         <p class="mb-lg-4">
-                            We focus on identifying your organization's specific security needs, customizing advanced solutions, and offering cutting-edge penetration testing and vulnerability assessments to comprehensively protect businesses from cyber risks.
+                            We focus on identifying your organization's specific security needs, customizing advanced
+                            solutions, and offering cutting-edge penetration testing and vulnerability assessments to
+                            comprehensively protect businesses from cyber risks.
                         </p>
                         <div class="shadow  p-2 p-lg-3  rounded-2 mb-2 mb-lg-3 bg-gradient">
                             Trusted by governments, Fortune 100 companies, and leading global organizations.
@@ -981,7 +1049,7 @@
                 </div>
 
                 <div class="col-12 col-lg-7 rounded-3  p-2 image-anime">
-                    <img class="rounded-2 image-anime" src="assets/img/service/service-details-img.png"
+                    <img class="rounded-2 image-anime" loading="lazy" src="assets/img/service/service-details-img.webp"
                         alt="unhack asia">
                 </div>
             </div>
@@ -1084,7 +1152,9 @@
                 border: 1px solid #fff;
                 color: white;
             }
+
             @media screen and (max-width:760px) {
+
                 /* .video{
                     height: 90vh;
                 } */
@@ -1207,82 +1277,82 @@
                         <div class="marquee-text">
 
                             <div class="brand-single-box">
-                                <img src="assets/img/logo/slider-logo1.png" alt="">
+                                <img src="assets/img/logo/slider-logo1.png" alt="unhack.asia services">
                             </div>
 
                             <div class="brand-single-box">
-                                <img src="assets/img/logo/slider-logo2.png" alt="">
+                                <img src="assets/img/logo/slider-logo2.png" alt="unhack.asia services">
                             </div>
 
                             <div class="brand-single-box">
-                                <img src="assets/img/logo/slider-logo3.png" alt="">
+                                <img src="assets/img/logo/slider-logo3.png" alt="unhack.asia services">
                             </div>
 
                             <div class="brand-single-box">
-                                <img src="assets/img/logo/slider-logo4.png" alt="">
-                            </div>
-
-
-
-                            <div class="brand-single-box">
-                                <img src="assets/img/logo/slider-logo6.png" alt="">
+                                <img src="assets/img/logo/slider-logo4.png" alt="unhack.asia services">
                             </div>
 
 
 
                             <div class="brand-single-box">
-                                <img src="assets/img/logo/slider-logo1.png" alt="">
-                            </div>
-
-                            <div class="brand-single-box">
-                                <img src="assets/img/logo/slider-logo2.png" alt="">
-                            </div>
-
-                            <div class="brand-single-box">
-                                <img src="assets/img/logo/slider-logo3.png" alt="">
-                            </div>
-
-                            <div class="brand-single-box">
-                                <img src="assets/img/logo/slider-logo4.png" alt="">
+                                <img src="assets/img/logo/slider-logo6.png" alt="unhack.asia services">
                             </div>
 
 
 
                             <div class="brand-single-box">
-                                <img src="assets/img/logo/slider-logo6.png" alt="">
+                                <img src="assets/img/logo/slider-logo1.png" alt="unhack.asia services">
+                            </div>
+
+                            <div class="brand-single-box">
+                                <img src="assets/img/logo/slider-logo2.png" alt="unhack.asia services">
+                            </div>
+
+                            <div class="brand-single-box">
+                                <img src="assets/img/logo/slider-logo3.png" alt="unhack.asia services">
+                            </div>
+
+                            <div class="brand-single-box">
+                                <img src="assets/img/logo/slider-logo4.png" alt="unhack.asia services">
                             </div>
 
 
 
                             <div class="brand-single-box">
-                                <img src="assets/img/logo/slider-logo4.png" alt="">
+                                <img src="assets/img/logo/slider-logo6.png" alt="unhack.asia services">
                             </div>
 
 
 
                             <div class="brand-single-box">
-                                <img src="assets/img/logo/slider-logo6.png" alt="">
-                            </div>
-                            <div class="brand-single-box">
-                                <img src="assets/img/logo/slider-logo1.png" alt="">
-                            </div>
-
-                            <div class="brand-single-box">
-                                <img src="assets/img/logo/slider-logo2.png" alt="">
-                            </div>
-
-                            <div class="brand-single-box">
-                                <img src="assets/img/logo/slider-logo3.png" alt="">
-                            </div>
-
-                            <div class="brand-single-box">
-                                <img src="assets/img/logo/slider-logo4.png" alt="">
+                                <img src="assets/img/logo/slider-logo4.png" alt="unhack.asia services">
                             </div>
 
 
 
                             <div class="brand-single-box">
-                                <img src="assets/img/logo/slider-logo6.png" alt="">
+                                <img src="assets/img/logo/slider-logo6.png" alt="unhack.asia services">
+                            </div>
+                            <div class="brand-single-box">
+                                <img src="assets/img/logo/slider-logo1.png" alt="unhack.asia services">
+                            </div>
+
+                            <div class="brand-single-box">
+                                <img src="assets/img/logo/slider-logo2.png" alt="unhack.asia services">
+                            </div>
+
+                            <div class="brand-single-box">
+                                <img src="assets/img/logo/slider-logo3.png" alt="unhack.asia services">
+                            </div>
+
+                            <div class="brand-single-box">
+                                <img src="assets/img/logo/slider-logo4.png" alt="unhack.asia services">
+                            </div>
+
+
+
+                            <div class="brand-single-box">
+                                <img src="assets/img/logo/slider-logo6.png" alt="unhack.asia services">
                             </div>
                         </div>
                     </div>
@@ -1702,7 +1772,7 @@
     </script>
 
 
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="assets/js/aos.js"></script>
     <script src="assets/js/fontawesome.js"></script>
     <script defer src="assets/js/jquery.countup.js"></script>
